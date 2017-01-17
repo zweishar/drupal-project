@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="FooBar" default="build">
+
+  <target name="build">
+    <composer command="install" composer="/usr/local/bin/composer" />
+  </target>
+
+</project>
