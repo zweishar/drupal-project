@@ -4,6 +4,7 @@
 
   <target name="build">
     <composer command="install" composer="/usr/local/bin/composer" />
+    <move file=".gitignore-artifact" tofile=".gitignore" overwrite="true"/>
   </target>
 
 </project>
